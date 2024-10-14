@@ -1,0 +1,34 @@
+{
+  "name": "final-project-team-32",
+  "version": "1.0.0",
+  "description": "CS 493 Group 32 Final Project",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/osu-cs493-599-sp24/final-project-team-32.git"
+  },
+  "author": "Andrew Adisoemarta, Victor Poetra, Timothy Wiliusa",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/osu-cs493-599-sp24/final-project-team-32/issues"
+  },
+  "homepage": "https://github.com/osu-cs493-599-sp24/final-project-team-32#readme",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "jsonwebtoken": "^9.0.2",
+    "mongodb": "^6.6.2",
+    "morgan": "^1.10.0",
+    "multer": "^1.4.5-lts.1",
+    "redis": "^4.6.14"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.0"
+  }
+}
